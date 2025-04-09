@@ -14,7 +14,7 @@ Compara el rendimiento de un jugador frente al promedio de su posición y muestr
 # Cargar datos con caché
 @st.cache_data
 def load_data():
-    data = pd.read_csv("/Users/sevi/Documents/Tarea_mod8/df_amf_final_copia2.csv")
+    data = pd.read_csv('df_amf_final_copia2.csv')
     return data
 
 data = load_data()
